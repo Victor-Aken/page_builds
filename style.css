@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    padding-top: 80px;
+}
+
+.headline-container{
+    margin-bottom: 35px;
+}
+
+.headline{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 36px;
+    
+}
+
+.sub-headline{
+    color: rgba(0, 0, 0, .8);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container p{
+    color: #706f64;
+}
+
+.form-container form{
+    margin-top: 25px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-container form .input-field input{
+    max-width: 700px;
+   width: 50vw;
+   height: 50px;
+   border: 1px solid rgba(0, 0, 0, .1);
+   border-radius: 25px;
+   background-color: #f8f9fb;
+   margin-bottom: 10px;
+   outline: none;
+   padding-left: 18px;
+   font-size: 18px;
+}
+
+
+.form-container form button{
+    max-width: 700px;
+    width: 50vw;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+.form-container form button:hover{
+    scale: 1.02;
+}
+
+.footer{
+   margin-top: 160px;
+}
